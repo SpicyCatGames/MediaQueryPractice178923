@@ -4,6 +4,7 @@
 }
 header {
     margin-top: -10px;
+    flex-direction: row;
 }
 .btn-signup {
     background-color: #e1164b;
@@ -47,8 +48,16 @@ header {
         font-size: xx-small;
     }
 }
-@media (max-width: 327) {
+@media (max-width: 327px) {
     header {
+        flex-direction: column;
+    }
+}
+@media (max-width: 166px) {
+    .flex-container {
+        align-items: flex-start;
+    }
+    div.flex-container {
         flex-direction: column;
     }
 }

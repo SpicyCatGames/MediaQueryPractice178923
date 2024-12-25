@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-weight: 800;
+}
+header {
+    margin-top: -10px;
+}
+.btn-signup {
+    background-color: #e1164b;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    height: fit-content;
+    padding: 5px 12px;
+    box-shadow: 0 4px 4px hsla(344, 82%, 48%, 0.575);
+}
+
+.flex-container {
+    display: flex;
+}
+.jc-spacebetween {
+    justify-content: space-between;
+}
+.jc-spacearound {
+    justify-content: space-around;
+}
+.ai-center {
+    align-items: center;
+}
+
+.header-anchor {
+    margin: 1px 10px;
+}

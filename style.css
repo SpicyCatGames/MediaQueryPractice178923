@@ -31,3 +31,24 @@ header {
 .header-anchor {
     margin: 1px 10px;
 }
+
+@media (max-width: 724px) {
+    header {
+        font-size: small;
+    }
+}
+@media (max-width: 621px) {
+    header {
+        font-size: x-small;
+    }
+}
+@media (max-width: 518px) {
+    header {
+        font-size: xx-small;
+    }
+}
+@media (max-width: 327) {
+    header {
+        flex-direction: column;
+    }
+}
